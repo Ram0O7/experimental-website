@@ -1,0 +1,150 @@
+body{
+    margin: 0 0 0 0;
+    font-family:'Montserrat' ;
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat-bold', sans-serif;
+}
+h3{
+font-size: 1.5rem;
+}
+p{
+    color: gray;
+}
+/* Headings */
+.big-heading{
+    font-family: 'Montserrat-bold', sans-serif;
+    color: #ffff;
+    font-size: 3.3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+/* containers */
+.container-fluid{
+    padding: 7% 15%;
+}
+/* features section */
+#features{
+    padding: 11% 15%;
+    /* background-color: #FBF8F1; */
+    position: relative;
+    /* z-index: 1; */
+}
+/* testimonials section */
+#testimonials{
+    background-color: #5463ff;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.testimonial-text{
+    padding: 0 13%;
+    margin-bottom: 50px;
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#man,#man2,#man3,#women{
+    background-color: #FBF8F1;
+}
+#press{
+    background-color: #5463ff;
+    padding-bottom: 3%;
+}
+#PRESS-HEADING{
+    color: rgb(17, 0, 255);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0;
+}
+.press-image{
+    width: 17%;
+    padding: 16px;
+}
+.feature-box{
+    padding: 10px;
+}
+.navbar{
+    padding-bottom: 4.0rem;
+}
+.navbar-brand{
+    font-size: 37px;
+}
+/* download-buttons */
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+/* title-image */
+.title-image{
+    width: 33%;
+    /* transform: rotate(20deg); */
+    position: absolute;
+    right: 15%;
+}
+@media (max-width:1360px){
+#title{
+    width: 100%;
+    text-align: center;
+    position: static;
+    transform: rotate(0);
+}
+.title-image{
+    width: 0;
+}
+}
+
+/* color section */
+.colored-section{
+    background-color: #2D31FA;
+}
+
+.icon{
+    color: #5463ff;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #2D31FA;
+}
+/* pricing section */
+#pricing{
+    padding: 100px;
+    line-height: 1.5rem;
+}
+.card-header{
+    background-color: #5463ff;
+}
+.card-body{
+    background-color: rgb(187, 193, 243);
+}
+.price-text{
+    font-size: 3rem;
+    color: rgb(0, 17, 255);
+}
+
+.pricing-col{
+    padding: 3% 3%;
+}
+/* CTA section */
+#cta{
+    background-color: #2D31FA;
+    color: #fff;
+    line-height: 1.5rem;
+}
+#footer{
+    font-size: 1.3rem;
+    margin: 5rem;
+}
+
+.fa-brands{
+    padding: .6rem;
+}
